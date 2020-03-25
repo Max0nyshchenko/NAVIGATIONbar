@@ -3,6 +3,12 @@
     padding: 0;
     box-sizing: border-box;
 }
+:root {
+    background-image: url(stars.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
 body{
     width: 100vw;
     height: 100vh;
@@ -41,6 +47,10 @@ nav {
     font-size: 14px;
 }
 
+.nav-links a:hover {
+    color: rgb(255, 255, 255);
+}
+
 .nav-links li {
     list-style: none;
 }
@@ -48,6 +58,10 @@ nav {
 .burger {
     display: none;
     cursor: pointer;
+}
+
+.burger:hover div {
+    background-color: rgb(255, 255, 255);
 }
 
 .burger div {
